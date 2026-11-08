@@ -1,0 +1,14 @@
+{
+  "name": "second-brain",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Offline-first personal second brain: notes, graph/colony/sphere views, wikilinks, backups, optional Firebase sync.",
+  "scripts": {
+    "start": "npx --yes serve public -l 5173",
+    "test": "node tests/run9.js && node tests/run10.js && node tests/run11.js && node tests/run13.js"
+  },
+  "devDependencies": {
+    "fake-indexeddb": "^6.0.0",
+    "jsdom": "^24.0.0"
+  }
+}
